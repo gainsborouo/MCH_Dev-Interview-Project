@@ -15,7 +15,7 @@
 這個任務要求你實現一個顯示歷年梅竹黑客松網站的頁面。版面中會呈現了每個網站的圖片、名稱、描述以及一個連結按鈕。
 初始頁面中，因為你尚未拿到後端的資料，所以只會出現 heading 是正常的。
 
-- **版面設計**：在 `.websites-grid` 這個 css-style 內設計 RWD 網格布局，確保在小螢幕上顯示一列，大螢幕上顯示多列。
+- **版面設計**：在 `.websites-grid` 這個 css-style 內設計 RWD 網格布局，確保在小螢幕上顯示一行，大螢幕上顯示多行。
   ![img2](https://github.com/user-attachments/assets/262ff69e-35fc-45c5-b668-f416b299fb97)
 - **API 取得資料**：你需要從 [後端 API](https://mch-dev.userwei.com/docs/) 獲取 `websites` 陣列的數據，並且確保從 API 取得的資料能夠正確渲染在 Vue 組件內。
 > [!TIP]
