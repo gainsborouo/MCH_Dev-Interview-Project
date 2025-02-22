@@ -66,12 +66,23 @@ a {
   margin: 0 auto;
 }
 
-.intro-header {
-  background-color: #E5E0DC;
-  padding: 40px;
-  border-radius: 10px;
-  display: flex;
-  gap: 30px;
+@media(min-width: 600px){
+  .intro-header {
+    background-color: #E5E0DC;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px;
+  }
+}
+
+@media(max-width: 600px){
+  .intro-header{
+    background-color: #E5E0DC;
+    padding: 40px;
+    border-radius: 10px;
+    gap: 30px;
+  }
 }
 
 
@@ -123,7 +134,9 @@ a {
   border: 5px solid rgba(0, 0, 0, 0.2);
 }
 
-.self-intro{
-  flex: 1;
+@media(min-width: 600px){
+  .self-intro{
+    flex: 1;
+  }
 }
 </style>
