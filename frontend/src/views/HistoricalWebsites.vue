@@ -41,11 +41,8 @@
           .then(response => {
             console.log(response);
             this.websites = response.data;
-          })
-          .catch(error => {
-            console.error('fail to get websites: ',error)
-          }
-          );
+          });
+          
       }
     }
   };
